@@ -14,5 +14,3 @@ Get the ec2 driver: https://github.com/paragonRobotics/ec2-new
 
 # Notes
 This project is targeted towards the c8051 boards utilized in LITEC and MPS at Rensselaer Polytechnic Institute #LetsGoRed
-
-Loading/Saving of workspaces is not implemented as of yet.
