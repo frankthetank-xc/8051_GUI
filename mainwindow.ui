@@ -31,7 +31,7 @@
      <rect>
       <x>10</x>
       <y>150</y>
-      <width>111</width>
+      <width>121</width>
       <height>41</height>
      </rect>
     </property>
@@ -44,7 +44,7 @@
      <rect>
       <x>10</x>
       <y>210</y>
-      <width>111</width>
+      <width>121</width>
       <height>41</height>
      </rect>
     </property>
@@ -55,8 +55,8 @@
    <widget class="QPushButton" name="loadButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>40</y>
+      <x>30</x>
+      <y>60</y>
       <width>85</width>
       <height>27</height>
      </rect>
@@ -68,8 +68,8 @@
    <widget class="QPushButton" name="saveButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>90</y>
+      <x>30</x>
+      <y>110</y>
       <width>85</width>
       <height>27</height>
      </rect>
@@ -121,6 +121,12 @@
         <width>301</width>
         <height>81</height>
        </rect>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOn</enum>
       </property>
       <property name="alternatingRowColors">
        <bool>true</bool>
@@ -264,6 +270,25 @@
       </property>
      </widget>
     </widget>
+   </widget>
+   <widget class="QLabel" name="nameEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string>[Workspace]</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
   </widget>
  </widget>

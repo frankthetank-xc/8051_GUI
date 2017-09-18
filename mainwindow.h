@@ -33,11 +33,18 @@ private slots:
 
     void on_saveButton_clicked();
 
+    void on_loadButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     FileManager * filemgr;
+    QString defaultFullpath;
 
     QString workingDir();
+    int     getDefaultSettings();
+    void configSettings(const workspace_t &params);
+    void saveDefaults();
+    void getParams(workspace_t &params);
 };
 
 #endif // MAINWINDOW_H
